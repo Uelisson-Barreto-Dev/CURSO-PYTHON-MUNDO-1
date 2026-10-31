@@ -1,0 +1,2 @@
+n1=int(input('Informe um número:'))
+print(f'O dobro de {n1} é igual a {n1*2} \n e o triplo é igual a {n1*3} \n e a raiz quadrada é igual a {n1**(1/2):.1f}')
