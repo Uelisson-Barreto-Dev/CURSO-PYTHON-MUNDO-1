@@ -1,0 +1,5 @@
+# CRIAR UM PROGRAMA QUE LEIA O QUANTO A PESSOA TEM EM REAIS E CALCULAR QUANTOS DOLARES ELA PODE COMPRAR
+nome = str(input('Digite seu nome: '))
+reais = float(input('Digite o valor em reais: '))
+dolares = reais/5.44
+print(f'Olá {nome} , você pode comprar {dolares:.2f} dolares')
