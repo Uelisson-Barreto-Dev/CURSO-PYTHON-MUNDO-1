@@ -1,0 +1,2 @@
+valorinicial = float(input('Informe o valor inicial do produto: '))
+print(f'Parabéns! Você ganhou um cupom de 5% de desconto e seu produto irá sair por R${valorinicial - (valorinicial * (5/100)):.2f}')
